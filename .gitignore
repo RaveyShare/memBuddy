@@ -1,0 +1,80 @@
+# === Mac OS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+coverage.*
+.cache/
+.tox/
+nosetests.xml
+*.log
+migrations/
+instance/
+# 如果使用Jupyter
+.ipynb_checkpoints/
+
+# === VSCode & PyCharm ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# === Next.js / React ===
+.next/
+out/
+build/
+dist/
+.cache/
+*.tsbuildinfo
+
+# === Env Files ===
+.env
+.env.*
+!.env.example
+
+# === Logs ===
+logs/
+*.log
+*.log.*
+npm-debug.log*
+
+# === Coverage Reports ===
+coverage/
+.nyc_output/
+
+# === Editor / OS generated ===
+*.swp
+*~
+*.bak
+*.tmp
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Optional: lock files (depending on team preference) ===
+# Uncomment one of the below if you want to ignore lockfiles
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
